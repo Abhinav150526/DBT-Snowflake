@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: MY_DATABASE  # Replace with your actual database name in Snowflake
+    schema: dbt_SCHEMA      # Replace with your schema name if different
+    tables:
+      - name: customers
+        description: "Table containing customer data"
+      - name: orders
+        description: "Table containing order data"
+
+
+
+
+ 
